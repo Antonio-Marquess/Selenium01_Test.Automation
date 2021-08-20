@@ -1,0 +1,4 @@
+C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\netcoreapp2.2\CourseSelenium.TestSelenium.csprojAssemblyReference.cache
+C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\netcoreapp2.2\CourseSelenium.TestSelenium.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\netcoreapp2.2\CourseSelenium.TestSelenium.AssemblyInfo.cs
+C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\netcoreapp2.2\CourseSelenium.TestSelenium.csproj.CoreCompileInputs.cache
