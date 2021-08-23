@@ -1,4 +1,3 @@
-C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.csprojAssemblyReference.cache
 C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.AssemblyInfoInputs.cache
 C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.AssemblyInfo.cs
@@ -107,3 +106,4 @@ C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\
 C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\ref\CourseSelenium.TestSelenium.dll
 C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.pdb
 C:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.genruntimeconfig.cache
+c:\Users\anton\Desktop\CourseSelenium\SRC\CourseSelenium.TestSelenium\obj\Debug\net5.0\CourseSelenium.TestSelenium.csproj.AssemblyReference.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj": {}
+    "c:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj": {
+    "c:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj",
+        "projectUniqueName": "c:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj",
         "projectName": "CourseSelenium.TestSelenium",
-        "projectPath": "C:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj",
+        "projectPath": "c:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj",
         "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\obj\\",
+        "outputPath": "c:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,8 @@
 using Microsoft.Extensions.Configuration;
-using OpenQA.Selenium;
 using CourseSelenium.TestSelenium.Utils;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+using System;
 
 namespace CourseSelenium.TestSelenium.Screens {
 
@@ -16,8 +18,13 @@ namespace CourseSelenium.TestSelenium.Screens {
             _configuration = configuration;
             _browser = browser;
 
-            _webDriver = WebDriverFactory.CreateWebDriver(browser, configuration.GetSection ("Selenium:Drivers:Path").value, false); 
+            _webDriver = WebDriverFactory.CreateWebDriver(browser, configuration.GetSection ("Selenium:Drivers:Path").Value, false); 
 
+        }
+
+        public void LoadScreen (string url) {
+            _webDriver.LoadPage (TimeSpan.FromSeconds (15), url );
+            _webDriver.Manage ().Window.Maximize ();
         }
          
         public void CloseScreen () {
