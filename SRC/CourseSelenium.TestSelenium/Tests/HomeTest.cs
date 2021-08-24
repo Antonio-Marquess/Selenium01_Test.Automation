@@ -5,21 +5,18 @@ using Xunit;
 namespace CourseSelenium.TestSelenium.Tests {
 
     public class HomeTest : BaseTest {
-        public void DeveCarregarTelaHomeComSucesso(Browser browser)
-        {
-            DeveCarregarTelaHomeComSucesso(browser, new HomeScreen(_configuration, browser));
-        }
-
+        
         [Theory]
         [InlineData (Browser.Chrome)]
-
-        public void DeveCarregarTelaHomeComSucesso (Browser browser, HomeScreen homeScreen) {
+        public void DeveCarrellsTelaHomeComSucesso (Browser browser){
+            HomeScreen homeScreen = new HomeScreen (_configuration, browser);    
             homeScreen.LoadScreen(_configuration.GetSection("Selenium:Urls:Home").Value);
+            string response = homeScreen.GetServices();
             homeScreen.CloseScreen();
+
+            Assert.True(!string.IsNullOrEmpty(response));
         
         }
-
-    
-        
+           
     }
 }

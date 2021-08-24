@@ -9,7 +9,13 @@ namespace CourseSelenium.TestSelenium.Utils {
             webDriver.Manage ().Timeouts ().PageLoad = timeToWait;
             webDriver.Navigate (). GoToUrl(url);
 
-        }    
+        }  
+
+        public static string GetHtml (this IWebDriver webDriver, By by) {
+            IWebElement webElement = webDriver.FindElement(by);
+            return webElement.GetAttribute("innerHTML");
+            
+        } 
         
     }
 }

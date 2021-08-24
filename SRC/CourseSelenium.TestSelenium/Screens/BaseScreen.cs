@@ -32,6 +32,11 @@ namespace CourseSelenium.TestSelenium.Screens {
             _webDriver = null;
 
         }
+
+        public void WaitByHtml(TimeSpan secondsToWait, By by) {
+            WebDriverWait wait = new WebDriverWait (_webDriver, secondsToWait);
+            wait.Until (x => !string.IsNullOrEmpty (x.FindElement(by).GetAttribute ("innerHTML")));
+        }
         
     }
 }
