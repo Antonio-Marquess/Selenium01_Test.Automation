@@ -8,15 +8,26 @@ namespace CourseSelenium.TestSelenium.Tests {
         
         [Theory]
         [InlineData (Browser.Chrome)]
-        public void DeveCarrellsTelaHomeComSucesso (Browser browser){
-            HomeScreen homeScreen = new HomeScreen (_configuration, browser);    
-            homeScreen.LoadScreen(_configuration.GetSection("Selenium:Urls:Home").Value);
-            string response = homeScreen.GetServices();
-            homeScreen.CloseScreen();
+        public void DeveCarregarTelaHomeComSucesso (Browser browser) {
 
-            Assert.True(!string.IsNullOrEmpty(response));
-        
+             HomeScreen homeScreen = new HomeScreen (_configuration, browser); 
+             string response;
+
+             try {
+                 homeScreen.LoadScreen (_configuration.GetSection ("Selenium:Urls:Home").Value);
+                 response = homeScreen.GetServices ();
+
+             } catch (System.Exception ex) {
+                 throw ex;
+
+             } finally {
+                homeScreen.CloseScreen();
+
+             }
+
+              Assert.True (!string.IsNullOrEmpty (response));                    
+         
         }
-           
+             
     }
 }

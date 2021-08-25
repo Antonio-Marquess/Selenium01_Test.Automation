@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FSexK/CCh68o3hTZw2zUXbte4GbveShJbOZ6UO3wRDNDlgMkSCTb9zNnPeeYSPcbct/JIdjLNJoc2btCM0xJUQ==",
+  "dgSpecHash": "QX/1/I/STwwX2SxBjwQgD5/xBuu5tQlM2imiksvW588QXM5+AX+6EodNOR6+IR/f0Seu6K/K9LmgN8hXzzjJYA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj",
+  "projectFilePath": "C:\\Users\\anton\\Desktop\\CourseSelenium\\SRC\\CourseSelenium.TestSelenium\\CourseSelenium.TestSelenium.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anton\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
