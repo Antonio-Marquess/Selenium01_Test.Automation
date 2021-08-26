@@ -10,8 +10,8 @@ namespace CourseSelenium.TestSelenium.Screens {
         public HomeScreen (IConfiguration configuration, Browser browser) : base(configuration, browser) {}
 
         public string GetServices() {
-             WaitByHtml(TimeSpan.FromSeconds(15), By.Id("servicos"));
-             string response = _webDriver.GetHtml(By.Id("servicos"));
+             WaitByHtml(TimeSpan.FromSeconds(15), By.Id ("servicos"));
+             string response = _webDriver.GetHtml(By.Id ("servicos"));
              return response;
 
         }
