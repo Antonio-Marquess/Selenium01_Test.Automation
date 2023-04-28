@@ -25,9 +25,12 @@ namespace CourseSelenium.TestSelenium.Tests {
 
              }
 
-              Assert.True (!string.IsNullOrEmpty (response));                    
-         
-        }
-             
+              Assert.True (!string.IsNullOrEmpty (response));  
+            
+             // Assert.Contains("Service 1", services);
+             // Assert.Contains("Service 2", services);
+             // Assert.Contains("Service 3", services);
+             // Assert.Contains("Service 4", services);         
+        }     
     }
 }
